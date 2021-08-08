@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            width:100%;
+            height:100%;
+            background: url(注册背景图.png);
+        }
+        .a
+        {
+            width:400px;
+            height:250px;
+            border: 1px rgb(200, 230, 238) solid;
+            background-color: rgb(218, 242, 247);
+            position:absolute;
+            left:30%;
+            top:30%;
+            border-radius: 20px;
+        
+        }
+        #f
+        {
+            width:200px;
+            background-color: #69c6d6;
+            position: absolute;
+            left:90px;
+            top:140px;
+            border-radius: 5
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div id="content">
+            <p align="center">账号:
+             <input id="uname" type="text" name="user" placeholder="账号首字符为字母">
+            </p>
+            <p align="center">密码:
+             <input id="upass" type="password" name="psw" placeholder="请输入密码">
+            </p>
+            <div id="error_box"><br></div>
+            <br>
+          
+            <button onclick="fnLogin()" class="btn btn-info" id="f">注册</button>
+           </div>
+        <div style="background-color: rgb(136, 127, 255)">
+          
+    </div>
+   
+</body>
+</html>

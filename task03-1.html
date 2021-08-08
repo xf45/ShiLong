@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03</title>
+    <script type="text/javascript" src="login.js">
+
+    </script>
+    <style>
+        body{
+            width:100%;
+            height:100%;
+            background: url(登录背景图.png);
+        }
+        .a
+        {
+            width:400px;
+            height:250px;
+            border: 1px rgb(200, 230, 238) solid;
+            background-color: rgb(218, 242, 247);
+            position:absolute;
+            left:30%;
+            top:30%;
+            border-radius: 20px;
+        
+        }
+        .b
+        {
+            text-decoration: none;
+            color:black;
+            margin-left: 30px;
+        }
+        .c
+        {
+            position: relative;
+            top:30px;
+            left:60px;
+            width:250px;
+            color:rgb(145, 141, 141);
+        }
+        .d
+        {
+            position: relative;
+            top:50px;
+            left:60px;
+            width:250px;
+            color:rgb(145, 141, 141);
+        }
+        .f
+        {
+            text-decoration: none;
+            color:black;
+            position: relative;
+            top:100px;
+            left:100px;
+        }
+        .m
+        {
+           width:200px;
+            background-color: #69c6d6;
+            position: absolute;
+            left:90px;
+            top:140px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div>
+            <span> <a href="" class="b">邮箱登录</a> </span>
+            <span> <a href="task03-2.html" class="b">手机号登录</a> </span>
+            <span> <a href="task03-3.html" class="b">验证码登录</a> </span>
+        </div>
+        <form  name="form1">
+            <div><input type="text" value="请输入邮箱" class="c" id="emali"> </div>
+            <div><input type="text" value="请输入密码" class="d" id="upass"> </div>
+            <div id="error_box"> <br></div>
+            <div> <input type="button" value="登录" class="m" onclick="fnLogin"></div>
+        </form>
+        <div> <a href="regist.html" class="f">注册账号 </a></div>
+    </div>
+</body>
+</html>
